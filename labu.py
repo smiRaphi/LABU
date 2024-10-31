@@ -46,8 +46,9 @@ class LabuSet:
         self.win = pygame.display.set_mode(self.size)
         pygame.display.set_caption("Labu")
         hwnd = pygame.display.get_wm_info()["window"]
-        style = 0x00000000 | 0x00C00000 | 0x00080000 | 0x00040000 | 0x00800000 | 0x10000000
-        ctypes.windll.user32.SetWindowLongW(hwnd,-16,style)
+        if sys.platform == 'win32':
+            style = 0x00000000 | 0x00C00000 | 0x00080000 | 0x00040000 | 0x00800000 | 0x10000000
+            ctypes.windll.user32.SetWindowLongW(hwnd,-16,style)
 
         self.running = self.__running = True
         self.scale = scale
