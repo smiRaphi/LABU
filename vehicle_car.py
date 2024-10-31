@@ -23,7 +23,8 @@ class Vehicle_Car(LabuSet):
         self.add_ic('s2')
 
     def booste(self):
-        if self.boost: self.rect(7,7,50,10)
+        if self.boost: self.rect(5,0,40,15)
+        else: self.rect(5,30,40,15)
     def reversee(self):
         if self.reverse: self.rect(11,self.size[1]-25,50,15)
         else: self.rect(38,self.size[1]-25,23,15)
