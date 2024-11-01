@@ -28,7 +28,7 @@ A Nintendo Labo emulator.
 |Name|Key|
 |-|-|
 |Boost|W|
-|Backwarsd|S|
+|Backwards|S|
 |Left Stick|Q|
 |Right Stick|E|
 |Switch L. Stick Up/Down|1/2|
