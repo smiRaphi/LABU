@@ -37,7 +37,7 @@ A Nintendo Labo emulator.
 |Name|Key|
 |-|-|
 |Shoot|Space|
-#### Vehicle Plane:
+#### Vehicle Submarine:
 |Name|Key|
 |-|-|
 |Shoot|Space|
